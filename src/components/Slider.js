@@ -7,7 +7,7 @@ import { sliderSettings } from "../Utilities/common.js";
 
 const SwiperSliders = () => {
   return (
-    <section className="card-wrapper mt-[50px] px-[50px] py-[30px]">
+    <section className="card-wrapper mt-[50px] px-[26px] md:px-[50px] py-[30px]">
       <h1 className="text-2xl font-medium text-white text-center">
         Top destinations to explore
       </h1>

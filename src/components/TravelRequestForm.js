@@ -15,7 +15,7 @@ const TravelRequestForm = ({ onFormSubmit }) => {
   return (
     <div
       id="request"
-      className="TravelRequestForm px-[50px] relative top-[-130px] md:top-[-100px] flex justify-center items-center"
+      className="TravelRequestForm px-[26px] md:px-[50px] relative top-[-130px] md:top-[-100px] flex justify-center items-center"
     >
       <form
         onSubmit={handleSubmit}

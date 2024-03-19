@@ -2,7 +2,7 @@ import React from "react";
 
 const Explore = () => {
   return (
-    <div className="explore px-[50px] flex flex-col justify-center items-center">
+    <div className="explore px-[26px] md:px-[50px]flex flex-col justify-center items-center">
       <h1 className="text-2xl font-medium text-white">
         Top destinations to explore
       </h1>
