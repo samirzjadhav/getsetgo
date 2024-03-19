@@ -5,7 +5,7 @@ const FlightResults = ({ flights }) => {
   return (
     <div
       id="flight"
-      className="flight-results grid grid-cols-4 gap-[20px] my-[50px] mx-[50px]"
+      className="flight-results grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[20px] my-[50px] mx-[50px]"
     >
       {flights.map((flight) => (
         <div
