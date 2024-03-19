@@ -1,13 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  background: #161616;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+.show {
+  bottom: 100px;
+}
+
+/* TravelRequestForm */
+
+.heading h1,
+.heading p {
+  text-shadow: inherit;
+}
+
+form input,
+form button {
+  @apply border ml-[10px] py-[4px] px-[20px] text-center shadow-2xl rounded;
+  border: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  @apply text-black;
+}
+
+/* Explore */
+
+.explore-card img {
+  @apply hover:scale-[1.05];
+}
+
+/* Swiper */
+.swiper-btn {
+  @apply px-[20px] py-[12px] rounded-full bg-blue-200 font-bold text-[18px];
+}
+
+/* Footer */
+
+.footer a {
+  @apply hover:text-gray-100;
 }

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Skyline Airlines",
+    "destination": "New York",
+    "price": "from $300/flight",
+    "image": "./airplane1.png"
+  },
+  {
+    "name": "Horizon Airways",
+    "destination": "Tokyo",
+    "price": "from $280/flight",
+    "image": "./airplane2.png"
+  },
+  {
+    "name": "Sunrise Flights",
+    "destination": "Paris",
+    "price": "from $320/flight",
+    "image": "./airplane3.png"
+  },
+  {
+    "name": "Cloud Nine Airlines",
+    "destination": "Brazil",
+    "price": "from $300/flight",
+    "image": "./airplane4.png"
+  },
+  {
+    "name": "Skyline Airlines",
+    "destination": "London",
+    "price": "from $340/flight",
+    "image": "./airplane5.png"
+  },
+  {
+    "name": "JetStream Airways",
+    "destination": "India",
+    "price": "from $290/flight",
+    "image": "./airplane6.png"
+  },
+  {
+    "name": "Hawker Hurricane",
+    "destination": "United States",
+    "price": "from $430/flight",
+    "image": "./airplane7.png"
+  }
+]
