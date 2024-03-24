@@ -44,6 +44,14 @@ input::placeholder {
   @apply hover:scale-[1.05];
 }
 
+.explore-big-img {
+  @apply rounded-2xl w-[320px] md:w-[400px] h-[240px];
+}
+
+.explore-small-img {
+  @apply w-[300px] md:w-[400px] h-[90px] rounded-lg;
+}
+
 /* Swiper */
 .swiper-btn {
   @apply px-[20px] py-[12px] rounded-full bg-blue-200 font-bold text-[18px];
@@ -53,4 +61,8 @@ input::placeholder {
 
 .footer a {
   @apply hover:text-gray-100;
+}
+
+.swiper-slide {
+  @apply flex justify-center items-center !important;
 }

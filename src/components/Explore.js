@@ -6,14 +6,10 @@ const Explore = () => {
       <h1 className="text-2xl font-medium text-white">
         Top destinations to explore
       </h1>
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-[20px] py-[20px] ">
+      <div className="container grid grid-cols-1 md:flex md:justify-center  gap-[20px] py-[20px] ">
         <div className="explore-cards flex gap-[20px]">
           <div className="explore-card relative">
-            <img
-              src="./r1.png"
-              className="rounded-2xl w-[320px] h-[240px]"
-              alt=""
-            />
+            <img src="./r1.png" className="explore-big-img" alt="" />
             <a
               href="#"
               className="bg-white py-[4px] px-[10px] rounded-lg absolute bottom-5 right-3"
@@ -25,7 +21,7 @@ const Explore = () => {
             <div className="explore-card relative">
               <img
                 src="./r2.png"
-                className=" w-[300px] h-[120px] rounded-lg"
+                className=" w-[300px] md:w-[400px] h-[120px] rounded-lg"
                 alt=""
               />
               <a
@@ -38,7 +34,7 @@ const Explore = () => {
             <div className="explore-card relative">
               <img
                 src="./r3.png"
-                className="w-[300px] h-[90px] rounded-lg"
+                className="w-[300px] md:w-[400px] h-[90px] rounded-lg"
                 alt=""
               />
               <a
@@ -52,11 +48,7 @@ const Explore = () => {
         </div>
         <div className="explore-cards flex gap-[20px]">
           <div className="explore-card relative">
-            <img
-              src="./r5.png"
-              className="rounded-2xl w-[320px] h-[240px]"
-              alt=""
-            />
+            <img src="./r5.png" className="explore-big-img" alt="" />
             <a
               href="#"
               className="bg-white py-[4px] px-[10px] rounded-lg absolute bottom-5 right-3"
@@ -68,7 +60,7 @@ const Explore = () => {
             <div className="explore-card relative">
               <img
                 src="./r4.png"
-                className="w-[300px] h-[90px] rounded-lg"
+                className="w-[300px] md:w-[400px] h-[90px] rounded-lg"
                 alt=""
               />
               <a
@@ -81,7 +73,7 @@ const Explore = () => {
             <div className="explore-card relative">
               <img
                 src="./r6.png"
-                className=" w-[300px] h-[120px] rounded-lg"
+                className=" w-[300px] md:w-[400px] h-[120px] rounded-lg"
                 alt=""
               />
               <a

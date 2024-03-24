@@ -49,7 +49,7 @@ const SwiperSliders = () => {
 const SliderButtons = () => {
   const swiper = useSwiper();
   return (
-    <div className="flex justify-center gap-[20px] mt-[20px] mb-[40px]">
+    <div className="flex justify-center gap-[20px] mt-[40px] mb-[40px]">
       <button className="swiper-btn" onClick={() => swiper.slidePrev()}>
         &lt;
       </button>
