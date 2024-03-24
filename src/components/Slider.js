@@ -16,7 +16,7 @@ const SwiperSliders = () => {
           <SliderButtons />
           {data.map((card, i) => (
             <SwiperSlide key={i}>
-              <div className="r-card">
+              <div className="r-card max-w-[100%] w-[340px]">
                 <img
                   src={card.image}
                   alt="home"
